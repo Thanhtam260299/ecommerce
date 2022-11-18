@@ -1,0 +1,17 @@
+.navbar-nav a {
+  font-size: 18px;
+}
+
+li {
+  list-style-type: none;
+
+  a {
+    text-decoration: none;
+    color: #333;
+
+    &:hover {
+      text-decoration: underline;
+      color: #333;
+    }
+  }
+}
